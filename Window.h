@@ -10,8 +10,13 @@
 #include <GL/glew.h>
 #endif
 #include <GLFW/glfw3.h>
-#include "Cube.h"
+#include "Skybox.h"
 #include "shader.h"
+#include "GLFWStarterProject/Node.h"
+#include "GLFWStarterProject/Cube.h"
+#include "GLFWStarterProject/Sphere.h"
+#include "GLFWStarterProject/Group.h"
+#include "GLFWStarterProject/MatrixTransform.h"
 
 class Window
 {
